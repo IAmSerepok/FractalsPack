@@ -39,21 +39,6 @@ class App:
 
             print(f'{i + 1} / {x_range}')
 
-        # for i in range(x_range):
-        #     for j in range(y_range):
-        #         if data[j, i] > 0: data[j, i] /= data_max
-        #         elif data[j, i] < 0: data[j, i] /= - data_min
-
-        # for _ in range(len(cmaps)):
-        #     plt.figure(figsize=(14, 7))
-        #     plt.imshow(data.T, cmap=cmaps[_], origin='lower')
-        #     plt.colorbar()
-        #     plt.axis('off')
-        #     plt.gca().set_aspect('auto', adjustable='box')
-        #     plt.savefig(f'ex1/lyapunov{_}_fractal.jpg', dpi=300)
-        #     plt.close()
-        #     print(f'{_ + 1} / {len(cmaps)}')
-
         # Определение положений цветов в градиенте
         positions = [0, 0.25, 0.495, 0.5, 0.505, 0.75, 1]
 
